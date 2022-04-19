@@ -143,10 +143,10 @@ void main() {
 // untuk diisi nanti
   late String jurusan;
 
-  jurusanns =  "Teknik Informatika";
+  jurusan =  "Teknik Informatika";
   //  jurusan = "TI";
   // ! memaksa untuk dijalankan /  yakin ada datanya
-  print(jurusanns.length);
+  print(jurusan.length);
 
   //perulangan looping
   //for plus
@@ -250,4 +250,27 @@ void main() {
   print(s1.ketahanan);
   print(s1.kandungan);
   print(s1.merk);
+}
+
+void main(List<String> args) {
+int i, j, k, rows;
+rows = 5;
+for (i= 1; i<= rows ; i++) {
+for (j=i; j <rows ;j++) {
+stdout.write(" ");
+}
+for (k=1; k<=i;k++) {
+stdout.write("");
+}
+print("");
+}
+for (i=rows; i>=1; i--){
+for(j=i; j<=rows;j++){
+stdout.write(" ");
+}
+for(k=1; k<i ;k++) {
+stdout.write("");
+}
+print("");
+}
 }
